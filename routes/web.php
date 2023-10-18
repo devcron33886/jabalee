@@ -18,7 +18,6 @@ Route::view('about', 'about/index')->name('about');
 Route::view('contact', 'contact/index')->name('contact');
 Route::view('events', 'events/index')->name('events');
 
-
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
