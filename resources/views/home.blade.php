@@ -4,8 +4,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <meta name="description"
+        content="Jabalee Sport Management is dependable team mates in the business of sports and entertainment.">
+    <meta name="keywords" content="Jabalee Sport management, basketball, kigali, Rwanda,bal,nba,africa">
+    <meta name="author" content="Jabalee Sport Management">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#111827">
 
-    <title>Laravel</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="Home">
+    <meta property="og:description"
+        content="Jabalee Sport Management is dependable team mates in the business of sports and entertainment.">
+    <meta property="og:image" content="https://jabalee.africa/image.jpg">
+    <meta property="og:url" content="https://jabalee.africa">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags for Twitter Sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@JabaleeSports">
+    <meta name="twitter:title" content="Home">
+    <meta name="twitter:description"
+        content="Jabalee Sport Management is dependable team mates in the business of sports and entertainment.">
+    <meta name="twitter:image" content="https://jabalee.africa/image.jpg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
