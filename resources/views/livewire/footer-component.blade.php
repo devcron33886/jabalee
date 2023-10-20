@@ -2,18 +2,23 @@
     <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
             <div class="pb-6">
-                <a href="#" class="text-lg leading-6 text-gray-600 hover:text-gray-900" wire:navigate>About</a>
+                <a href="/" class="text-lg leading-6 text-white hover:text-rose-600" wire:navigate>Home</a>
             </div>
             <div class="pb-6">
-                <a href="#" class="text-lg leading-6 text-gray-600 hover:text-gray-900" wire:navigate>Blog</a>
+                <a href="{{ route('about') }}" class="text-lg leading-6 text-white hover:text-rose-600" wire:navigate>About us</a>
             </div>
             <div class="pb-6">
-                <a href="#" class="text-lg leading-6 text-gray-600 hover:text-gray-900" wire:navigate>Jobs</a>
+                <a href="{{ route('events') }}" class="text-lg leading-6 text-white hover:text-rose-600" wire:navigate>Events</a>
             </div>
             <div class="pb-6">
-                <a href="#" class="text-lg leading-6 text-gray-600 hover:text-gray-900" wire:navigate>Press</a>
+                <a href="https://bounce.africa" _target="blank" class="text-lg leading-6 text-white hover:text-rose-600">Join Bounce</a>
             </div>
-      
+            <div class="pb-6">
+                <a href="https://crusaders.africa" _target="blank" class="text-lg leading-6 text-white hover:text-rose-600">Join Crusaders</a>
+            </div>
+            <div class="pb-6">
+                <a href="{{ route('contact') }}" class="text-lg leading-6 text-white hover:text-rose-600" wire:navigate>Conact us</a>
+            </div>
         </nav>
         <div class="mt-10 flex justify-center space-x-10">
             <a href="#" class="text-gray-400 hover:text-gray-500">
@@ -41,8 +46,8 @@
                 </svg>
             </a>
         </div>
-        <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-center lg:mt-24">
-            <p class="text-lg text-center leading-5 text-gray-500">&copy; {{ date('Y')}} {{ config('app.name')}}, Ltd. All rights reserved.</p>
-        </div>
+        
+        <p class="mt-10 text-lg text-center leading-5 text-white">&copy; {{ date('Y')}} {{ config('app.name')}}. All rights reserved.</p>
+        
     </div>
 </div>
