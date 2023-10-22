@@ -29,7 +29,7 @@
                 Bounce</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="{{ route('contact')}}" class="text-lg font-semibold leading-6 text-white">Contact us <span
+            <a href="{{ route('contact')}}" class="text-lg font-semibold leading-6 text-white" wire:navigate>Contact us <span
                     aria-hidden="true">&rarr;</span></a>
         </div>
     </div>
