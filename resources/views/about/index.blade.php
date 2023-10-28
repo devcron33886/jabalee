@@ -123,16 +123,16 @@
                 class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
                 <li>
                     <img class="aspect-[14/13] w-full rounded-2xl object-cover"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt="">
+                        src="{{ asset('images/team/brian.jpeg')}}?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                        alt="Brian Kirungi">
                     <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">Mr Brian Kirungi</h3>
                     <p class="text-base leading-7 text-gray-300">Co-Founder / CEO</p>
 
                 </li>
                 <li>
                     <img class="aspect-[14/13] w-full rounded-2xl object-cover"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt="">
+                        src="{{ asset('images/team/coach-chris.jpg')}}?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                        alt="CHRISTOPHER KYEBAMBE">
                     <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">Mr CHRISTOPHER KYEBAMBE
                     </h3>
                     <p class="text-base leading-7 text-gray-300">Techical Director / Head Coach</p>
@@ -141,18 +141,20 @@
                 <li>
                     <img class="aspect-[14/13] w-full rounded-2xl object-cover"
                         src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt="">
+                        alt="Joshua NGARAMBE">
                     <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">Mr Joshua NGARAMBE</h3>
                     <p class="text-base leading-7 text-gray-300">CFO</p>
 
                 </li>
                 <li>
-                    <img class="aspect-[14/13] w-full rounded-2xl object-cover"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt="">
-                    <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">Mr Jacques MBABAZI</h3>
-                    <p class="text-base leading-7 text-gray-300">CTO</p>
+                    <a href="https://mbabazi.pro" target="_blank">
+                        <img class="aspect-[14/13] w-full rounded-2xl object-cover"
+                            src="{{ asset('images/team/Jacques MBABAZI.jpg')}}?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                            alt="Jacques MBABAZI">
 
+                        <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">Mr Jacques MBABAZI</h3>
+                        <p class="text-base leading-7 text-gray-300">CTO</p>
+                    </a>
                 </li>
 
 
