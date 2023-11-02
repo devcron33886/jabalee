@@ -126,7 +126,7 @@
                         src="{{ asset('images/team/brian.jpeg')}}?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                         alt="Brian Kirungi">
                     <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">Mr Brian Kirungi</h3>
-                    <p class="text-base leading-7 text-gray-300">Co-Founder / CEO</p>
+                    <p class="text-base leading-7 text-gray-300">Chief Executive Officer (CEO)</p>
 
                 </li>
                 <li>
@@ -140,10 +140,10 @@
                 </li>
                 <li>
                     <img class="aspect-[14/13] w-full rounded-2xl object-cover"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                        src="{{ asset('images/team/Ngarambe.jpeg')}}?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                         alt="Joshua NGARAMBE">
                     <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">Mr Joshua NGARAMBE</h3>
-                    <p class="text-base leading-7 text-gray-300">CFO</p>
+                    <p class="text-base leading-7 text-gray-300">Chief Finance Officer (CFO)</p>
 
                 </li>
                 <li>
