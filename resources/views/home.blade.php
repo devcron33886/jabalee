@@ -13,7 +13,10 @@
     <meta name="theme-color" content="#111827">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Open Graph Meta Tags for Social Media Sharing -->
     <meta property="og:title" content="Home">
@@ -56,7 +59,8 @@
                     <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
                         stroke-width="0" />
                 </svg>
-                <rect width="100%" height="100%" stroke-width="0" fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
+                <rect width="100%" height="100%" stroke-width="0"
+                    fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
             </svg>
             <div class="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
                 aria-hidden="true">
@@ -66,8 +70,7 @@
             </div>
             <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">
                 <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
-                    <img class="h-11" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                        alt="Your Company">
+                    <img class="h-11" src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}">
                     <div class="mt-24 sm:mt-32 lg:mt-16">
                         <a href="https://bounce.africa" target="_blank" class="inline-flex space-x-6">
                             <span
@@ -125,11 +128,11 @@
                     src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg" alt="Tuple" width="158"
                     height="48">
                 <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                    src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg" alt="SavvyCal" width="158"
-                    height="48">
+                    src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg" alt="SavvyCal"
+                    width="158" height="48">
                 <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                    src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg" alt="Statamic" width="158"
-                    height="48">
+                    src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg" alt="Statamic"
+                    width="158" height="48">
             </div>
         </div>
 
@@ -138,7 +141,8 @@
             <div class="mx-auto max-w-2xl text-center">
                 <h2 class="text-base font-semibold leading-7 text-rose-600">Who we are</h2>
                 <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">About Jabalee</p>
-                <p class="mt-6 text-lg leading-8 text-gray-300">JABALEE Sports Management has a vision to be the leading
+                <p class="mt-6 text-lg leading-8 text-gray-300">JABALEE Sports Management has a vision to be the
+                    leading
                     sports and Entertainment Company while connecting Africa to the global sports market. Talent
                     management is a major goal for us at JABALEE SM. We are currently identifying, nurturing, grooming
                     and growing our talents the right way at the CRUSADERS BASKETBALL ACADEMY.</p>
@@ -178,7 +182,8 @@
                     <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
                         stroke-width="0" />
                 </svg>
-                <rect width="100%" height="100%" stroke-width="0" fill="url(#1d4240dd-898f-445f-932d-e2872fd12de3)" />
+                <rect width="100%" height="100%" stroke-width="0"
+                    fill="url(#1d4240dd-898f-445f-932d-e2872fd12de3)" />
             </svg>
             <div class="absolute inset-x-0 top-10 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
                 aria-hidden="true">
